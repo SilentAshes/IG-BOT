@@ -23,7 +23,7 @@ This Python script uses Selenium to automate following users on Instagram.
 
     ```bash
     git clone https://github.com/SilentAshes/IG-BOT.git
-    cd Instagram-Follow-Bot
+    cd IG-BOT
     ```
 
 2.  Install dependencies:
