@@ -39,13 +39,12 @@ This Python script uses Selenium to automate following users on Instagram.
 
 4.  Set up Environment Variables (Recommended):
     * Create environment variables for your Instagram username, password, and target account. Example:
-        * `IG_USERNAME=your_username`
-        * `IG_PASSWORD=your_password`
-        * `IG_TARGET=target_account`
+        * `USER_NAME = 'IG_USERNAME'`
+        * `PASSWD = 'IG_PASSWORD'`
+        * `ACC_NAME ='IG_TARGET'`
     * Modify the `IG-BOT.py` script to use these environment variables:
 
     ```python
-    import os
     USER_NAME = 'IG_USERNAME'
     PASSWD = 'IG_PASSWORD'
     ACC_NAME ='IG_TARGET'
